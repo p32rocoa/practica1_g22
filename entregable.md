@@ -28,7 +28,6 @@
 
 <br>
 >![logo_git](https://git-scm.com/images/logo@2x.png)
-<br>
 
 >Sistema para el control distribuido de versiones
 >de código. Fundamentalmente permite:
