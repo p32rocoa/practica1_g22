@@ -10,17 +10,17 @@
 ## Contenidos
 
 1. Git
-    1. Introducción.
-    2. Instalación y configuración.
-    3. Uso básico.
+    1. Introducción
+    2. Instalación y configuración
+    3. Uso básico
     4. Ramas
     5. GitHub
 2. Markdown
-    1. Introducción.
-    2. Código.
+    1. Introducción
+    2. Código
 3. Eclipse
-    1. Introducción.
-    2. Instalación.
+    1. Introducción
+    2. Instalación
 4. Recursos
 
 ---
@@ -181,3 +181,12 @@ git ls-tree master~3
 `git log --oneline -3`
 
 >Para más opciones consultar documentación de git.
+
+**Examinar el contenido de un *commit*:**<br>
+`git show <id>`
+
+**Comparar un *commit* con el actual:**<br>
+`git diff <id> nombre_archivo`
+
+**Comparar dos *commits*:**<br>
+`git diff id..id nombre_archivo`
