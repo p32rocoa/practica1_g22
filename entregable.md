@@ -44,7 +44,7 @@ nuestro repositorio Git.
 
 ---
 
-## Ventajas
+### Ventajas
 
 > **Git**
 > * Habilidad de deshacer cambios.
@@ -62,13 +62,13 @@ nuestro repositorio Git.
 
 ---
 
-## Instalación
+### Instalación
 
 * Para instalar Git: https://git-scm.com
 * En el curso se utilizará Git a través de líneas de comandos.
 * Para eclipse existen plugins integrados: https://www.eclipse.org/egit
 
-## Configuración básica
+### Configuración básica
 
 **Nombre del administrador:**<br>
 `git config --global user.name "ejemplo de nombre"`
@@ -87,7 +87,7 @@ nuestro repositorio Git.
 
 ---
 
-## Comandos básicos
+### Comandos básicos
 
 **Iniciar repositorio en un directorio:**<br>
 `git init`
@@ -193,7 +193,7 @@ git ls-tree master~3
 
 ---
 
-## Ramas o *Branches*
+### Ramas o *Branches*
 <br>
 ![imagen_ramas](https://sdlambert.github.io/img/git-nodes.png)
 
@@ -202,7 +202,7 @@ Es la forma para separar la línea actual de desarrollo con respecto
 a la principal. Normalmente representan versiones del software que
 posteriormente son integradas a la línea principal.
 
-## Comandos de Ramas
+### Comandos de Ramas
 
 **Ver listado de ramas:**<br>
 `git branch`
@@ -256,3 +256,5 @@ git stash pop <nombre_stash>
 ~~~
 
 ---
+
+### GitHub
