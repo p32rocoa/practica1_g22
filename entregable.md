@@ -42,3 +42,19 @@
 nuestro repositorio Git.
 
 ---
+
+## Ventajas
+
+> **Git**
+> * Habilidad de deshacer cambios.
+> * Historial y documentación de cambios.
+> * Múltiples versiones de código.
+> * Habilidad de resolver conflictos entre versiones de distintos
+>programadores.
+> * Copias independientes.
+
+<br>
+
+> **GitHub**
+> * Documentación de requerimientos.
+> * Ver el avance del desarrollo.
