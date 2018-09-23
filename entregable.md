@@ -58,3 +58,30 @@ nuestro repositorio Git.
 > **GitHub**
 > * Documentación de requerimientos.
 > * Ver el avance del desarrollo.
+
+---
+
+## Instalación
+
+* Para instalar Git: https://git-scm.com
+* En el curso se utilizará Git a través de líneas de comandos.
+* Para eclipse existen plugins integrados: https://www.eclipse.org/egit
+
+## Configuración básica
+
+**Nombre del administrador:**<br>
+`git config --global user.name "ejemplo de nombre"`
+
+**Correo electrónico:**<br>
+`git config --global user.email <usuario>@uco.es`
+
+**Editor de texto:**<br>
+`git config --global core.editor "gedit"`
+
+**Color de la interfaz:**<br>
+`git config --global color.ui true`
+
+**Listado de la configuración:**<br>
+`git config --list`
+
+---
