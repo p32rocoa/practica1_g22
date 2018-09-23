@@ -165,4 +165,19 @@ git reset --hard <id_commit>
 **Eliminar archivos que git no controla:**<br>
 `git clean -f`
 
-Ignorar archivos en el repositorio: .gitignore
+>Ignorar archivos en el repositorio: .gitignore
+
+**Listar el contenido del repositorio de git:**
+~~~
+git ls-tree master
+git ls-tree master^^^
+git ls-tree master~3
+~~~
+
+**Log en una línea:**<br>
+`git log --oneline`
+
+**Log con los tres últimos *commits* en una línea:**<br>
+`git log --oneline -3`
+
+>Para más opciones consultar documentación de git.
