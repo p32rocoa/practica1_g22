@@ -190,3 +190,14 @@ git ls-tree master~3
 
 **Comparar dos *commits*:**<br>
 `git diff id..id nombre_archivo`
+
+---
+
+## Ramas o *Branches*
+<br>
+![imagen_ramas](https://sdlambert.github.io/img/git-nodes.png)
+
+<br>
+Es la forma para separar la línea actual de desarrollo con respecto
+a la principal. Normalmente representan versiones del software que
+posteriormente son integradas a la línea principal.
