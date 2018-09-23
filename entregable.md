@@ -92,7 +92,7 @@ nuestro repositorio Git.
 **Iniciar repositorio en un directorio:**<br>
 `git init`
 
-**Agregar cambios al área de staging:**<br>
+**Agregar cambios al área de *staging*:**<br>
 `git add`
 
 **Validar cambios en el repositorio:**<br>
@@ -101,19 +101,19 @@ nuestro repositorio Git.
 **Hacer los dos pasos anteriores en uno:**<br>
 `git commit -am "Mensaje"`
 
-**Historial de commits:**<br>
+**Historial de *commits*:**<br>
 `git log`
 
 **Ayuda del listado anterior:**<br>
 `git help log`
 
-**Listar los 5 commits más recientes:**<br>
+**Listar los 5 *commits* más recientes:**<br>
 `git log -n 5`
 
-**Listar los commits desde una fecha:**<br>
+**Listar los *commits* desde una fecha:**<br>
 `git log --since=2018-09-18`
 
-**Listar los commits por autor:**<br>
+**Listar los *commits* por autor:**<br>
 `git log --author="Antonio"`
 
 **Ver cambios en el directorio:**<br>
@@ -122,7 +122,7 @@ nuestro repositorio Git.
 **Ver diferencia entre ficheros en el directorio y el repositorio de git:**<br>
 `git diff`
 
-**Ver diferencia entre ficheros en el staging y el repositorio:**<br>
+**Ver diferencia entre ficheros en el *staging* y el repositorio:**<br>
 `git diff --staged`
 
 **Eliminar archivos:**
