@@ -218,3 +218,41 @@ posteriormente son integradas a la línea principal.
 
 **Comparar ramas:**<br>
 `git diff <nombre_rama1>..<nombre_rama2>`
+
+**Ver ramas idénticas a la actual:**<br>
+`git branch --merged`
+
+**Renombrar ramas:**<br>
+`git branch -m <nombre_antiguo> <nombre_nuevo>`
+
+**Eliminar ramas:**
+~~~
+git branch -d <nombre_rama>
+git branch -D <nombre_rama>
+~~~
+
+**Integrar ramas a la actual:**<br>
+`git merge <nombre_rama>`
+
+**Resolver conflictos** *(se suele hacer manualmente)* **:**<br>
+`git merge --abort`
+
+**Almacenar cambios temporales:**<br>
+`git stash save "Mensaje"`
+
+**Listar cambios:**<br>
+`git stash list`
+
+**Ver contenido de un cambio temporal:**<br>
+`git stash show -p <nombre_stash>`
+
+**Eliminar un cambio temporal:**<br>
+`git stash drop <nombre_stash>`
+
+**Aplicar cambio del *stash*:**
+~~~
+git stash apply <nombre_stash>
+git stash pop <nombre_stash>
+~~~
+
+---
