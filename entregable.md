@@ -194,7 +194,7 @@ git ls-tree master~3
 ---
 
 ### Ramas o *Branches*
-<br>
+
 ![imagen_ramas](https://sdlambert.github.io/img/git-nodes.png)
 
 <br>
