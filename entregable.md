@@ -103,3 +103,18 @@ nuestro repositorio Git.
 
 **Historial de commits:**<br>
 `git log`
+
+**Ayuda del listado anterior:**<br>
+`git help log`
+
+**Listar los 5 commits más recientes:**<br>
+`git log -n 5`
+
+**Listar los commits desde una fecha:**<br>
+`git log --since=2018-09-18`
+
+**Listar los commits por autor:**<br>
+`git log --author="Antonio"`
+
+**Ver cambios en el directorio:**<br>
+`git status`
