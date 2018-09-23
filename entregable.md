@@ -136,3 +136,21 @@ git commit -m "Mensaje"
 git mv <antiguo> <nuevo>
 git commit -m "Mensaje"
 ~~~
+
+
+
+
+**Deshacer cambios con git:**<br>
+`git checkout -- nombre_fichero`
+
+**Retirar archivos del *staging*:**<br>
+`git reset HEAD nombre_fichero`
+
+**Complementar último *commit*:**<br>
+`git commit --amend -m "Mensaje"`
+
+**Recuperar versión de un fichero de *commit* antiguo:**<br>
+`git checkout <id_commit> -- nombre_archivo`
+
+**Revertir un *commit*:**<br>
+`git revert <id_commit>`
