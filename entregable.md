@@ -118,3 +118,21 @@ nuestro repositorio Git.
 
 **Ver cambios en el directorio:**<br>
 `git status`
+
+**Ver diferencia entre ficheros en el directorio y el repositorio de git:**<br>
+`git diff`
+
+**Ver diferencia entre ficheros en el staging y el repositorio:**<br>
+`git diff --staged`
+
+**Eliminar archivos:**
+~~~
+git rm <archivo>
+git commit -m "Mensaje"
+~~~
+
+**Mover o renombrar archivos:**
+~~~
+git mv <antiguo> <nuevo>
+git commit -m "Mensaje"
+~~~
