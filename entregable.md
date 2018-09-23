@@ -201,3 +201,20 @@ git ls-tree master~3
 Es la forma para separar la línea actual de desarrollo con respecto
 a la principal. Normalmente representan versiones del software que
 posteriormente son integradas a la línea principal.
+
+## Comandos de Ramas
+
+**Ver listado de ramas:**<br>
+`git branch`
+
+**Crear una rama:**<br>
+`git branch <nombre_rama>`
+
+**Cambiarnos a una rama:**<br>
+`git checkout <nombre_rama>`
+
+**Crear una rama y moverse en un paso:**<br>
+`git checkout -b <nombre_rama>`
+
+**Comparar ramas:**<br>
+`git diff <nombre_rama1>..<nombre_rama2>`
