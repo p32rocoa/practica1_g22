@@ -137,9 +137,6 @@ git mv <antiguo> <nuevo>
 git commit -m "Mensaje"
 ~~~
 
-
-
-
 **Deshacer cambios con git:**<br>
 `git checkout -- nombre_fichero`
 
@@ -154,3 +151,18 @@ git commit -m "Mensaje"
 
 **Revertir un *commit*:**<br>
 `git revert <id_commit>`
+
+**Deshacer múltiples cambios en el repositorio:**
+~~~
+git reset --soft <id_commit>
+git reset --mixed <id_commit>
+git reset --hard <id_commit>
+~~~
+
+**Listar archivos que git no controla:**<br>
+`git clean -n`
+
+**Eliminar archivos que git no controla:**<br>
+`git clean -f`
+
+Ignorar archivos en el repositorio: .gitignore
