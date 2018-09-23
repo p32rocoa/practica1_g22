@@ -86,3 +86,20 @@ nuestro repositorio Git.
 `git config --list`
 
 ---
+
+## Comandos básicos
+
+**Iniciar repositorio en un directorio:**<br>
+`git init`
+
+**Agregar cambios al área de staging:**<br>
+`git add`
+
+**Validar cambios en el repositorio:**<br>
+`git commit -m "Mensaje"`
+
+**Hacer los dos pasos anteriores en uno:**<br>
+`git commit -am "Mensaje"`
+
+**Historial de commits:**<br>
+`git log`
