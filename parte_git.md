@@ -256,5 +256,3 @@ git stash pop <nombre_stash>
 ~~~
 
 ---
-
-### GitHub
