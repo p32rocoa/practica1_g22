@@ -3,7 +3,7 @@
 
 ## Github no es Git
 
-![imagen_ramas](https://i.imgur.com/3B1kzDL.png)
+![imagen_github](https://i.imgur.com/3B1kzDL.png)
 
 ---
 
@@ -69,3 +69,23 @@
 ---
 
 ## Lenguaje Markdown
+* Markdown es un lenguaje de etiquetado ligero que simplifica
+la elaboración de documentos.
+
+* Se ideó pensando en una herramienta para escribir páginas
+web en un texto simple fácil de leer.
+
+* Actualmente, se utiliza para documentar software ya que al
+ser texto plano puede entrar dentro de cualquier sistema de
+control de versiones e incluye muchas extensiones para
+colorear código fuente en distintos lenguajes.
+
+---
+
+## Sintaxis
+
+![imagen_sint1](https://i.imgur.com/hT1M11d.png)
+
+![imagen_sint2](https://i.imgur.com/lhVNdXs.png)
+
+---
