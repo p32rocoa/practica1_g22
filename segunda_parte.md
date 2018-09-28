@@ -38,9 +38,9 @@
 ## Dar seguimiento a branches remotos
 
 * LOCAL → REMOTO
-> * Cambios en el repositorio local.
-> * Commit de los cambios.
-> * Añadir cambios a repositorio remoto:<br>
+> * 1º - Cambios en el repositorio local.
+> * 2º - Commit de los cambios.
+> * 3º - Añadir cambios a repositorio remoto:<br>
 > `git push`
 
 <br>
@@ -51,3 +51,21 @@
 > `git merge origin/master`
 > * En un solo paso:<br>
 > `git pull`
+
+## Operaciones con branches remotos
+* Creación:
+> * 1º - Crear branch local.
+> * 2º - Hacer cambios en dicho branch.
+> * 3º - Hacer commit.
+> * 4º - Copiar el branch al repositorio remoto:<br>
+> `git push -u origin branch_remoto`
+<br>
+* Copia: <br>
+`git checkout -b local remoto`
+
+* Eliminación: <br>
+`git push origin -- delete branch_remoto`
+
+---
+
+## Lenguaje Markdown
