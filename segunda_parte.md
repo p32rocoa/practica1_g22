@@ -99,3 +99,12 @@ Eclipse es un entorno integrado de desarrollo (IDE).
 * Hay una gran documentación.
 
 ---
+
+### Instalación
+
+* Utilizaremos eclipse para C++.<br>
+[Eclipse para C++<br>](https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-cc-developers)
+* Para eclipse existen plugins integrados con git.<br>
+https://www.eclipse.org/egit
+
+### Recursos
