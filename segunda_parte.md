@@ -98,8 +98,6 @@ Eclipse es un entorno integrado de desarrollo (IDE).
 
 * Hay una gran documentación.
 
----
-
 ### Instalación
 
 * Utilizaremos eclipse para C++.<br>
