@@ -361,6 +361,8 @@ Eclipse es un entorno integrado de desarrollo (IDE).
 * Para eclipse existen plugins integrados con git.<br>
 https://www.eclipse.org/egit
 
+---
+
 ## Recursos
 Recursos Git:
 
